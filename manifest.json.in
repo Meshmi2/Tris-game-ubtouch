@@ -1,0 +1,15 @@
+{
+    "name": "tris.meshmi2",
+    "description": "a popular tris game",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Tris Game",
+    "hooks": {
+        "tris": {
+            "apparmor": "tris.apparmor",
+            "desktop":  "tris.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "massimo trovati <meshmi@outlook.it>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
